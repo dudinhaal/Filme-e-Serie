@@ -1,0 +1,81 @@
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background: #003B5C; /* Azul da DC */
+    color: #FFCC00; /* Amarelo da DC */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    background: #003B5C; /* Azul da DC */
+    color: #FFCC00; /* Amarelo da DC */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #1D4766; /* Tom mais escuro do azul da DC */
+}
+
+.chamada {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.chamada-texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.video-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria {
+    padding: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.categoria-videos a {
+    flex: 1 1 calc(25% - 10px);
+    position: relative;
+}
+
+.categoria-videos img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.categoria-videos img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #003B5C; /* Azul da DC */
+    color: #FFCC00; /* Amarelo da DC */
+}
